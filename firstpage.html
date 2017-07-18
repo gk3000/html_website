@@ -5,6 +5,8 @@
 <head>
 	<title>My first page</title>
 
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
 <style>
 body {
 	background-color: antiquewhite;
@@ -27,7 +29,7 @@ p {
 #green {
 	background-color: green;
 }
-.content {
+.container-fluid {
 	width:80%;
 	margin: 0 auto;
     padding: 2% 3%;
@@ -38,9 +40,10 @@ p {
 </head>
 
 <body>
+<base href="https://drive.google.com/drive/folders/0B4RG-nP95l1yYTBBS2JCR2E5eGM?usp=sharing"/>
 <!-- html comment -->
 
-<div class="content">
+<div class="container-fluid">
 
 <h1>Hello world!</h1>
 <h2>Heading 2</h2>
@@ -51,7 +54,7 @@ p {
 
 <img src="https://helpx.adobe.com/dreamweaver/using/writing-editing-code/_jcr_content/main-pars/image_893981809.img.png/add-cursor-discontinuous-lines.PNG"/>
 
-<img src="./img/js_test.jpeg"/>
+<img src="wonder_dash.jpg"/>
 
 <p>That's my first page.<br/>
 
@@ -61,19 +64,33 @@ I'm on a new line.</p>
 
 <p id="green">Paragraph 2</p>
 
-<div class="lists">
-<ul>
-	<li>I am a list item</li>
-	<li>Me too</li>
-	<li>And me</li>
-</ul>
 
-<ol>
-	<li>I am a list item</li>
-	<li>Me too</li>
-	<li>And me</li>
-</ol>
+<div class="row">
+  <div class="col-md-4">
+	  	<ul>
+			<li>I am a list item</li>
+			<li>Me too</li>
+			<li>And me</li>
+		</ul>
+  </div>
+
+  <div class="col-md-4">
+
+		  <ol>
+			<li>I am a list item</li>
+			<li>Me too</li>
+			<li>And me</li>
+		</ol>
+  </div>
+
+  <div class="col-md-4">
+
+		<img src="./img/js_test.jpeg"/>
+
+  </div>
 </div>
+
+
 
 </div>
 </body>
