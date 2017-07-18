@@ -1,0 +1,33 @@
+/* all of the styles */
+		body {
+			/*background-color: lightgrey;*/
+			text-align: center;
+		}
+
+		img {
+			max-width: 80%;
+			border-width: 1px;
+			border-color: yellow;
+			border-style: solid;
+			border-radius: 1%;
+		}
+		.navigation {
+			margin-top: 1em;
+		}
+		#content {
+			max-width: 50%;
+			margin-left: auto;
+			margin-right: auto;
+		}
+		#content p {
+			text-align: justify;
+		}
+		#content h1 {
+			text-align: center;
+		}
+		.aligned-left {
+			float: left;
+		}
+		.aligned-right {
+			float: right;
+		}
